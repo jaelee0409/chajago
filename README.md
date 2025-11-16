@@ -1,50 +1,32 @@
-# Welcome to your Expo app 👋
+# 찾아고 🗺️
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+서울시 내 공공 화장실과 쓰레기통 위치를 공유하고 찾을 수 있는 모바일 앱입니다.
 
-## Get started
+## ✨ 주요 기능
 
-1. Install dependencies
+- 📍 서울시 내 공공 화장실, 쓰레기통 위치 확인
+- ✅ 사용자 위치 기반 새 장소 추가
+- 🔐 카카오톡 소셜 로그인
+- 🗺️ 카카오맵 연동
+- ⭐ 장소 평가 및 리뷰
+- 📱 iOS & Android 지원
 
-   ```bash
-   npm install
-   ```
+## 🛠️ 기술 스택
 
-2. Start the app
+### 프론트엔드
+- React Native (Expo EAS)
+- 카카오맵 SDK
+- 카카오 로그인
+- Expo Location
 
-   ```bash
-   npx expo start
-   ```
+### 백엔드
+- Java 17 + Spring Boot 3.x
+- Spring Security + JWT
+- Spring Data JPA
+- 카카오 OAuth 2.0
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### 인프라
+- AWS 컨테이너 (ECS/EKS)
+- Neon DB (PostgreSQL Serverless)
+- Docker
+- GitHub Actions
