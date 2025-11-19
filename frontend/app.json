@@ -38,6 +38,12 @@
             "backgroundColor": "#000000"
           }
         }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "찾아고 앱이 사용자의 위치 정보에 접근합니다."
+        }
       ]
     ],
     "experiments": {
