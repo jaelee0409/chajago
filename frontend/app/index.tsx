@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Pressable, Text, View } from "react-native";
 import { testConnection } from "./api";
 
-import KakaoMapWebView from "../components/KakaoMapWebView";
+import KakaoMapWebView from "./components/KakaoMapWebView";
 
 export default function HomePage() {
   const [message, setMessage] = useState("");
