@@ -6,7 +6,7 @@ import useLocation from '../hooks/useLocation';
 export default function KakaoMapWebView() {
     const { location, error, isLoading } = useLocation();
 
-    const KAKAO_APP_KEY = "77071dae8211dcfd03ae5fc56af9ffe1"; // 카카오 개발자센터에서 발급
+    const KAKAO_APP_KEY = process.env.EXPO_PUBLIC_KAKAO_API_KEY;
 
     const getMapHTML = () => {
         let centerLat = 37.5665; // 기본값: 서울
